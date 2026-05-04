@@ -1,0 +1,58 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+C:\Users\jaisi\IdeaProjects\Hirebridge\src\main\resources\application.yaml
+src/main/resources/application.yaml
+
+# ===============================
+
+# 🔐 Spring Boot Config (IMPORTANT)
+
+# ===============================
+
+application.yml
+application.yaml
+application-*.yml
+application-*.yaml
+
+# Optional: if inside resources folder specifically
+
+src/main/resources/application*.yml
+src/main/resources/application*.yaml
+
+# Allow example config
+
+!application-example.yml
+!src/main/resources/application-example.yml

@@ -1,0 +1,25 @@
+spring:
+application:
+name: Hirebridge
+
+datasource:
+url: jdbc:mysql://localhost:3306/hirebridge_db?createDatabaseIfNotExist=true
+username: YOUR_DB_USERNAME
+password: YOUR_DB_PASSWORD
+
+jpa:
+hibernate:
+ddl-auto: update
+show-sql: true
+
+jwt:
+secret: YOUR_JWT_SECRET_KEY
+expiration: 86400000 # 24 Hours
+
+cloudinary:
+cloud-name: YOUR_CLOUD_NAME
+api-key: YOUR_API_KEY
+api-secret: YOUR_API_SECRET
+
+file:
+upload-dir: uploads/resumes/
